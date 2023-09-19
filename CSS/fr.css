@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.nav-list{
+width: 50%;
+background-color:black;
+display:flex;
+align-items: center;
+
+}
+
+.nav-list li{
+list-style: none;
+padding: 26px 30px; 
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.rightnav{
+    width: 50%;
+    background-color: aqua;
+
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0,0,0,0.7)url('imgbuld.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center
+    align-items center
+    
+}
+.contact{
+    background-color: blanchedalmond;
+    height: 34vh;
+
+}
+.text-center{
+    text-align: center;
+}
+
+.form{
+    max-width: 344px;
+    margin: auto;
+
+}
